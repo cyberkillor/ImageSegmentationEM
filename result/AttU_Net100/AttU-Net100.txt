@@ -1,0 +1,350 @@
+Using GPU:0
+Namespace(augmentation_prob=0.21313116449259584, batch_size=1, beta1=0.5, beta2=0.999, cuda_idx=1, epoch=100, image_size=512, img_ch=1, log_step=2, lr=0.001, mode='train', model_path='./models', model_type='AttU_Net', num_epochs=100, num_epochs_decay=35, num_workers=1, output_ch=1, result_path='./result/AttU_Net100/AttU_Net', t=3, test_path='./dataset/test_img/', train_path='./dataset/train_img/', val_step=2, valid_path='./dataset/valid_img/')
+image count in train path :20
+image count in valid path :5
+image count in test path :5
+Epoch [1/100], Loss: 8.9698, 
+[Training] Acc: 0.7714, SE: 0.8590, SP: 0.6337, PC: 0.7876, F1: 0.8165, JS: 0.7003, DC: 0.8165
+[Validation] Acc: 0.6433, SE: 0.9116, SP: 0.0939, PC: 0.6737, F1: 0.7744, JS: 0.6321, DC: 0.7744
+Best AttU_Net model score : 0.6433
+Epoch [2/100], Loss: 6.9706, 
+[Training] Acc: 0.7955, SE: 0.9477, SP: 0.5393, PC: 0.7780, F1: 0.8535, JS: 0.7450, DC: 0.8535
+[Validation] Acc: 0.7717, SE: 0.9765, SP: 0.3514, PC: 0.7583, F1: 0.8529, JS: 0.7447, DC: 0.8529
+Best AttU_Net model score : 0.7717
+Epoch [3/100], Loss: 6.3194, 
+[Training] Acc: 0.8002, SE: 0.9664, SP: 0.5202, PC: 0.7731, F1: 0.8585, JS: 0.7527, DC: 0.8585
+[Validation] Acc: 0.7724, SE: 0.9719, SP: 0.3600, PC: 0.7602, F1: 0.8526, JS: 0.7441, DC: 0.8526
+Best AttU_Net model score : 0.7724
+Epoch [4/100], Loss: 6.1934, 
+[Training] Acc: 0.7888, SE: 0.9614, SP: 0.5082, PC: 0.7627, F1: 0.8494, JS: 0.7392, DC: 0.8494
+[Validation] Acc: 0.7708, SE: 0.9888, SP: 0.3273, PC: 0.7515, F1: 0.8533, JS: 0.7451, DC: 0.8533
+Epoch [5/100], Loss: 5.7482, 
+[Training] Acc: 0.8045, SE: 0.9700, SP: 0.5268, PC: 0.7749, F1: 0.8610, JS: 0.7567, DC: 0.8610
+[Validation] Acc: 0.7177, SE: 0.9833, SP: 0.1638, PC: 0.7110, F1: 0.8249, JS: 0.7022, DC: 0.8249
+Epoch [6/100], Loss: 5.6721, 
+[Training] Acc: 0.8081, SE: 0.9723, SP: 0.5325, PC: 0.7782, F1: 0.8640, JS: 0.7610, DC: 0.8640
+[Validation] Acc: 0.6867, SE: 0.8048, SP: 0.4388, PC: 0.7433, F1: 0.7704, JS: 0.6352, DC: 0.7704
+Epoch [7/100], Loss: 5.2837, 
+[Training] Acc: 0.8175, SE: 0.9763, SP: 0.5512, PC: 0.7858, F1: 0.8702, JS: 0.7707, DC: 0.8702
+[Validation] Acc: 0.7879, SE: 0.9963, SP: 0.3657, PC: 0.7623, F1: 0.8633, JS: 0.7601, DC: 0.8633
+Best AttU_Net model score : 0.7879
+Epoch [8/100], Loss: 5.3327, 
+[Training] Acc: 0.8149, SE: 0.9732, SP: 0.5504, PC: 0.7850, F1: 0.8681, JS: 0.7678, DC: 0.8681
+[Validation] Acc: 0.8129, SE: 0.9378, SP: 0.5617, PC: 0.8154, F1: 0.8710, JS: 0.7720, DC: 0.8710
+Best AttU_Net model score : 0.8129
+Epoch [9/100], Loss: 5.1588, 
+[Training] Acc: 0.8201, SE: 0.9782, SP: 0.5547, PC: 0.7877, F1: 0.8722, JS: 0.7738, DC: 0.8722
+[Validation] Acc: 0.7760, SE: 0.9986, SP: 0.3187, PC: 0.7521, F1: 0.8575, JS: 0.7513, DC: 0.8575
+Epoch [10/100], Loss: 5.0355, 
+[Training] Acc: 0.8237, SE: 0.9810, SP: 0.5614, PC: 0.7894, F1: 0.8743, JS: 0.7774, DC: 0.8743
+[Validation] Acc: 0.7720, SE: 0.9501, SP: 0.4056, PC: 0.7699, F1: 0.8493, JS: 0.7385, DC: 0.8493
+Epoch [11/100], Loss: 5.1410, 
+[Training] Acc: 0.8214, SE: 0.9771, SP: 0.5625, PC: 0.7889, F1: 0.8723, JS: 0.7744, DC: 0.8723
+[Validation] Acc: 0.7315, SE: 0.9989, SP: 0.1790, PC: 0.7162, F1: 0.8339, JS: 0.7156, DC: 0.8339
+Epoch [12/100], Loss: 5.2919, 
+[Training] Acc: 0.8135, SE: 0.9802, SP: 0.5390, PC: 0.7793, F1: 0.8675, JS: 0.7668, DC: 0.8675
+[Validation] Acc: 0.7839, SE: 0.9817, SP: 0.3820, PC: 0.7659, F1: 0.8597, JS: 0.7546, DC: 0.8597
+Epoch [13/100], Loss: 5.0352, 
+[Training] Acc: 0.8238, SE: 0.9775, SP: 0.5664, PC: 0.7916, F1: 0.8742, JS: 0.7771, DC: 0.8742
+[Validation] Acc: 0.8037, SE: 0.9406, SP: 0.5213, PC: 0.8047, F1: 0.8663, JS: 0.7644, DC: 0.8663
+Epoch [14/100], Loss: 4.9173, 
+[Training] Acc: 0.8264, SE: 0.9787, SP: 0.5700, PC: 0.7939, F1: 0.8762, JS: 0.7802, DC: 0.8762
+[Validation] Acc: 0.8195, SE: 0.9814, SP: 0.4856, PC: 0.7993, F1: 0.8804, JS: 0.7870, DC: 0.8804
+Best AttU_Net model score : 0.8195
+Epoch [15/100], Loss: 4.9166, 
+[Training] Acc: 0.8246, SE: 0.9794, SP: 0.5661, PC: 0.7914, F1: 0.8748, JS: 0.7782, DC: 0.8748
+[Validation] Acc: 0.7931, SE: 0.9934, SP: 0.3836, PC: 0.7683, F1: 0.8661, JS: 0.7643, DC: 0.8661
+Epoch [16/100], Loss: 4.9800, 
+[Training] Acc: 0.8229, SE: 0.9781, SP: 0.5650, PC: 0.7899, F1: 0.8733, JS: 0.7759, DC: 0.8733
+[Validation] Acc: 0.8133, SE: 0.9865, SP: 0.4598, PC: 0.7900, F1: 0.8769, JS: 0.7813, DC: 0.8769
+Epoch [17/100], Loss: 4.6091, 
+[Training] Acc: 0.8349, SE: 0.9832, SP: 0.5828, PC: 0.8012, F1: 0.8824, JS: 0.7900, DC: 0.8824
+[Validation] Acc: 0.8137, SE: 0.9871, SP: 0.4567, PC: 0.7905, F1: 0.8774, JS: 0.7822, DC: 0.8774
+Epoch [18/100], Loss: 4.7887, 
+[Training] Acc: 0.8310, SE: 0.9816, SP: 0.5807, PC: 0.7969, F1: 0.8790, JS: 0.7848, DC: 0.8790
+[Validation] Acc: 0.7913, SE: 0.9973, SP: 0.3658, PC: 0.7655, F1: 0.8658, JS: 0.7639, DC: 0.8658
+Epoch [19/100], Loss: 4.7241, 
+[Training] Acc: 0.8325, SE: 0.9817, SP: 0.5843, PC: 0.7979, F1: 0.8799, JS: 0.7860, DC: 0.8799
+[Validation] Acc: 0.8171, SE: 0.9897, SP: 0.4609, PC: 0.7926, F1: 0.8798, JS: 0.7859, DC: 0.8798
+Epoch [20/100], Loss: 4.8974, 
+[Training] Acc: 0.8291, SE: 0.9794, SP: 0.5784, PC: 0.7960, F1: 0.8776, JS: 0.7826, DC: 0.8776
+[Validation] Acc: 0.8276, SE: 0.9839, SP: 0.5076, PC: 0.8046, F1: 0.8849, JS: 0.7939, DC: 0.8849
+Best AttU_Net model score : 0.8276
+Epoch [21/100], Loss: 4.8050, 
+[Training] Acc: 0.8305, SE: 0.9793, SP: 0.5819, PC: 0.7970, F1: 0.8782, JS: 0.7835, DC: 0.8782
+[Validation] Acc: 0.8310, SE: 0.9938, SP: 0.4957, PC: 0.8032, F1: 0.8881, JS: 0.7991, DC: 0.8881
+Best AttU_Net model score : 0.8310
+Epoch [22/100], Loss: 4.6687, 
+[Training] Acc: 0.8348, SE: 0.9825, SP: 0.5872, PC: 0.7999, F1: 0.8815, JS: 0.7885, DC: 0.8815
+[Validation] Acc: 0.8157, SE: 0.9845, SP: 0.4693, PC: 0.7935, F1: 0.8782, JS: 0.7834, DC: 0.8782
+Epoch [23/100], Loss: 4.7556, 
+[Training] Acc: 0.8298, SE: 0.9808, SP: 0.5801, PC: 0.7951, F1: 0.8778, JS: 0.7827, DC: 0.8778
+[Validation] Acc: 0.8080, SE: 0.9947, SP: 0.4219, PC: 0.7817, F1: 0.8751, JS: 0.7784, DC: 0.8751
+Epoch [24/100], Loss: 4.6440, 
+[Training] Acc: 0.8371, SE: 0.9816, SP: 0.5960, PC: 0.8028, F1: 0.8827, JS: 0.7906, DC: 0.8827
+[Validation] Acc: 0.8070, SE: 0.9888, SP: 0.4365, PC: 0.7838, F1: 0.8738, JS: 0.7766, DC: 0.8738
+Epoch [25/100], Loss: 4.7149, 
+[Training] Acc: 0.8313, SE: 0.9813, SP: 0.5866, PC: 0.7962, F1: 0.8783, JS: 0.7842, DC: 0.8783
+[Validation] Acc: 0.7107, SE: 0.9997, SP: 0.1178, PC: 0.7003, F1: 0.8232, JS: 0.7001, DC: 0.8232
+Epoch [26/100], Loss: 4.7225, 
+[Training] Acc: 0.8364, SE: 0.9801, SP: 0.5989, PC: 0.8029, F1: 0.8820, JS: 0.7896, DC: 0.8820
+[Validation] Acc: 0.8164, SE: 0.9910, SP: 0.4618, PC: 0.7900, F1: 0.8788, JS: 0.7842, DC: 0.8788
+Epoch [27/100], Loss: 4.6656, 
+[Training] Acc: 0.8329, SE: 0.9821, SP: 0.5864, PC: 0.7977, F1: 0.8798, JS: 0.7861, DC: 0.8798
+[Validation] Acc: 0.7698, SE: 0.9944, SP: 0.3104, PC: 0.7481, F1: 0.8533, JS: 0.7448, DC: 0.8533
+Epoch [28/100], Loss: 4.4854, 
+[Training] Acc: 0.8399, SE: 0.9831, SP: 0.5990, PC: 0.8056, F1: 0.8851, JS: 0.7944, DC: 0.8851
+[Validation] Acc: 0.7945, SE: 0.9934, SP: 0.3896, PC: 0.7698, F1: 0.8669, JS: 0.7658, DC: 0.8669
+Epoch [29/100], Loss: 4.5375, 
+[Training] Acc: 0.8390, SE: 0.9839, SP: 0.6009, PC: 0.8029, F1: 0.8837, JS: 0.7924, DC: 0.8837
+[Validation] Acc: 0.7752, SE: 0.9908, SP: 0.3327, PC: 0.7550, F1: 0.8563, JS: 0.7495, DC: 0.8563
+Epoch [30/100], Loss: 4.5103, 
+[Training] Acc: 0.8398, SE: 0.9826, SP: 0.6005, PC: 0.8059, F1: 0.8849, JS: 0.7943, DC: 0.8849
+[Validation] Acc: 0.7735, SE: 0.9478, SP: 0.4173, PC: 0.7726, F1: 0.8499, JS: 0.7395, DC: 0.8499
+Epoch [31/100], Loss: 4.9662, 
+[Training] Acc: 0.8228, SE: 0.9783, SP: 0.5711, PC: 0.7876, F1: 0.8722, JS: 0.7738, DC: 0.8722
+[Validation] Acc: 0.8160, SE: 0.9943, SP: 0.4503, PC: 0.7893, F1: 0.8795, JS: 0.7856, DC: 0.8795
+Epoch [32/100], Loss: 4.6596, 
+[Training] Acc: 0.8350, SE: 0.9837, SP: 0.5891, PC: 0.7984, F1: 0.8810, JS: 0.7880, DC: 0.8810
+[Validation] Acc: 0.7619, SE: 0.9963, SP: 0.2792, PC: 0.7411, F1: 0.8495, JS: 0.7390, DC: 0.8495
+Epoch [33/100], Loss: 4.5885, 
+[Training] Acc: 0.8380, SE: 0.9789, SP: 0.6043, PC: 0.8042, F1: 0.8826, JS: 0.7905, DC: 0.8826
+[Validation] Acc: 0.7815, SE: 0.9989, SP: 0.3297, PC: 0.7568, F1: 0.8608, JS: 0.7561, DC: 0.8608
+Epoch [34/100], Loss: 4.5207, 
+[Training] Acc: 0.8398, SE: 0.9830, SP: 0.6042, PC: 0.8043, F1: 0.8841, JS: 0.7932, DC: 0.8841
+[Validation] Acc: 0.8284, SE: 0.9937, SP: 0.4842, PC: 0.8014, F1: 0.8869, JS: 0.7972, DC: 0.8869
+Epoch [35/100], Loss: 4.4838, 
+[Training] Acc: 0.8372, SE: 0.9828, SP: 0.5904, PC: 0.8029, F1: 0.8834, JS: 0.7916, DC: 0.8834
+[Validation] Acc: 0.7815, SE: 0.9984, SP: 0.3371, PC: 0.7560, F1: 0.8602, JS: 0.7551, DC: 0.8602
+Epoch [36/100], Loss: 4.3814, 
+[Training] Acc: 0.8428, SE: 0.9860, SP: 0.6060, PC: 0.8061, F1: 0.8865, JS: 0.7968, DC: 0.8865
+[Validation] Acc: 0.8335, SE: 0.9884, SP: 0.5152, PC: 0.8083, F1: 0.8890, JS: 0.8005, DC: 0.8890
+Best AttU_Net model score : 0.8335
+Epoch [37/100], Loss: 4.3339, 
+[Training] Acc: 0.8449, SE: 0.9851, SP: 0.6100, PC: 0.8096, F1: 0.8882, JS: 0.7997, DC: 0.8882
+[Validation] Acc: 0.7654, SE: 0.9972, SP: 0.2898, PC: 0.7445, F1: 0.8518, JS: 0.7428, DC: 0.8518
+Epoch [38/100], Loss: 4.3146, 
+[Training] Acc: 0.8453, SE: 0.9847, SP: 0.6066, PC: 0.8112, F1: 0.8892, JS: 0.8009, DC: 0.8892
+[Validation] Acc: 0.8289, SE: 0.9893, SP: 0.5006, PC: 0.8032, F1: 0.8862, JS: 0.7961, DC: 0.8862
+Epoch [39/100], Loss: 4.3777, 
+[Training] Acc: 0.8428, SE: 0.9852, SP: 0.6039, PC: 0.8074, F1: 0.8870, JS: 0.7977, DC: 0.8870
+[Validation] Acc: 0.8068, SE: 0.9983, SP: 0.4086, PC: 0.7790, F1: 0.8748, JS: 0.7779, DC: 0.8748
+Epoch [40/100], Loss: 4.2546, 
+[Training] Acc: 0.8475, SE: 0.9864, SP: 0.6136, PC: 0.8118, F1: 0.8902, JS: 0.8028, DC: 0.8902
+[Validation] Acc: 0.8267, SE: 0.9923, SP: 0.4876, PC: 0.7995, F1: 0.8852, JS: 0.7944, DC: 0.8852
+Epoch [41/100], Loss: 4.2586, 
+[Training] Acc: 0.8472, SE: 0.9863, SP: 0.6121, PC: 0.8115, F1: 0.8901, JS: 0.8024, DC: 0.8901
+[Validation] Acc: 0.8116, SE: 0.9950, SP: 0.4373, PC: 0.7843, F1: 0.8767, JS: 0.7811, DC: 0.8767
+Epoch [42/100], Loss: 4.3688, 
+[Training] Acc: 0.8425, SE: 0.9837, SP: 0.6068, PC: 0.8071, F1: 0.8863, JS: 0.7964, DC: 0.8863
+[Validation] Acc: 0.8271, SE: 0.9877, SP: 0.4985, PC: 0.8023, F1: 0.8850, JS: 0.7941, DC: 0.8850
+Epoch [43/100], Loss: 4.4997, 
+[Training] Acc: 0.8426, SE: 0.9827, SP: 0.6126, PC: 0.8073, F1: 0.8857, JS: 0.7959, DC: 0.8857
+[Validation] Acc: 0.8117, SE: 0.9907, SP: 0.4452, PC: 0.7865, F1: 0.8764, JS: 0.7806, DC: 0.8764
+Epoch [44/100], Loss: 4.1527, 
+[Training] Acc: 0.8466, SE: 0.9872, SP: 0.6068, PC: 0.8109, F1: 0.8901, JS: 0.8025, DC: 0.8901
+[Validation] Acc: 0.8287, SE: 0.9917, SP: 0.4958, PC: 0.8017, F1: 0.8863, JS: 0.7963, DC: 0.8863
+Epoch [45/100], Loss: 4.8986, 
+[Training] Acc: 0.8279, SE: 0.9770, SP: 0.5878, PC: 0.7939, F1: 0.8751, JS: 0.7790, DC: 0.8751
+[Validation] Acc: 0.8164, SE: 0.9809, SP: 0.4805, PC: 0.7958, F1: 0.8781, JS: 0.7832, DC: 0.8781
+Epoch [46/100], Loss: 4.2231, 
+[Training] Acc: 0.8485, SE: 0.9861, SP: 0.6161, PC: 0.8131, F1: 0.8909, JS: 0.8037, DC: 0.8909
+[Validation] Acc: 0.8179, SE: 0.9911, SP: 0.4658, PC: 0.7915, F1: 0.8798, JS: 0.7858, DC: 0.8798
+Epoch [47/100], Loss: 4.3140, 
+[Training] Acc: 0.8430, SE: 0.9852, SP: 0.6075, PC: 0.8067, F1: 0.8866, JS: 0.7970, DC: 0.8866
+[Validation] Acc: 0.8266, SE: 0.9792, SP: 0.5138, PC: 0.8068, F1: 0.8841, JS: 0.7928, DC: 0.8841
+Epoch [48/100], Loss: 4.4201, 
+[Training] Acc: 0.8444, SE: 0.9835, SP: 0.6137, PC: 0.8092, F1: 0.8874, JS: 0.7983, DC: 0.8874
+[Validation] Acc: 0.8081, SE: 0.9955, SP: 0.4243, PC: 0.7810, F1: 0.8749, JS: 0.7783, DC: 0.8749
+Epoch [49/100], Loss: 4.2285, 
+[Training] Acc: 0.8472, SE: 0.9872, SP: 0.6122, PC: 0.8109, F1: 0.8899, JS: 0.8025, DC: 0.8899
+[Validation] Acc: 0.8295, SE: 0.9913, SP: 0.4950, PC: 0.8033, F1: 0.8871, JS: 0.7976, DC: 0.8871
+Epoch [50/100], Loss: 4.1318, 
+[Training] Acc: 0.8490, SE: 0.9878, SP: 0.6149, PC: 0.8126, F1: 0.8913, JS: 0.8044, DC: 0.8913
+[Validation] Acc: 0.8217, SE: 0.9924, SP: 0.4654, PC: 0.7958, F1: 0.8830, JS: 0.7909, DC: 0.8830
+Epoch [51/100], Loss: 4.1100, 
+[Training] Acc: 0.8490, SE: 0.9876, SP: 0.6126, PC: 0.8134, F1: 0.8918, JS: 0.8050, DC: 0.8918
+[Validation] Acc: 0.8213, SE: 0.9925, SP: 0.4684, PC: 0.7952, F1: 0.8825, JS: 0.7903, DC: 0.8825
+Epoch [52/100], Loss: 4.3741, 
+[Training] Acc: 0.8427, SE: 0.9851, SP: 0.6102, PC: 0.8058, F1: 0.8859, JS: 0.7960, DC: 0.8859
+[Validation] Acc: 0.7953, SE: 0.9976, SP: 0.3780, PC: 0.7687, F1: 0.8680, JS: 0.7672, DC: 0.8680
+Epoch [53/100], Loss: 3.9920, 
+[Training] Acc: 0.8536, SE: 0.9881, SP: 0.6225, PC: 0.8178, F1: 0.8948, JS: 0.8099, DC: 0.8948
+[Validation] Acc: 0.8292, SE: 0.9906, SP: 0.4958, PC: 0.8036, F1: 0.8869, JS: 0.7973, DC: 0.8869
+Epoch [54/100], Loss: 4.0573, 
+[Training] Acc: 0.8512, SE: 0.9887, SP: 0.6209, PC: 0.8141, F1: 0.8925, JS: 0.8065, DC: 0.8925
+[Validation] Acc: 0.8202, SE: 0.9954, SP: 0.4566, PC: 0.7926, F1: 0.8822, JS: 0.7897, DC: 0.8822
+Epoch [55/100], Loss: 4.3622, 
+[Training] Acc: 0.8425, SE: 0.9861, SP: 0.6078, PC: 0.8050, F1: 0.8857, JS: 0.7961, DC: 0.8857
+[Validation] Acc: 0.8256, SE: 0.9932, SP: 0.4810, PC: 0.7983, F1: 0.8849, JS: 0.7940, DC: 0.8849
+Epoch [56/100], Loss: 4.5627, 
+[Training] Acc: 0.8367, SE: 0.9834, SP: 0.5948, PC: 0.8007, F1: 0.8822, JS: 0.7899, DC: 0.8822
+[Validation] Acc: 0.8286, SE: 0.9883, SP: 0.5003, PC: 0.8041, F1: 0.8862, JS: 0.7962, DC: 0.8862
+Epoch [57/100], Loss: 4.4474, 
+[Training] Acc: 0.8409, SE: 0.9827, SP: 0.6020, PC: 0.8066, F1: 0.8856, JS: 0.7952, DC: 0.8856
+[Validation] Acc: 0.7812, SE: 0.9993, SP: 0.3303, PC: 0.7560, F1: 0.8605, JS: 0.7556, DC: 0.8605
+Epoch [58/100], Loss: 4.4179, 
+[Training] Acc: 0.8414, SE: 0.9862, SP: 0.5980, PC: 0.8057, F1: 0.8862, JS: 0.7966, DC: 0.8862
+[Validation] Acc: 0.7975, SE: 0.9978, SP: 0.3824, PC: 0.7713, F1: 0.8696, JS: 0.7699, DC: 0.8696
+Epoch [59/100], Loss: 4.2096, 
+[Training] Acc: 0.8472, SE: 0.9862, SP: 0.6137, PC: 0.8112, F1: 0.8899, JS: 0.8020, DC: 0.8899
+[Validation] Acc: 0.8185, SE: 0.9933, SP: 0.4588, PC: 0.7918, F1: 0.8808, JS: 0.7874, DC: 0.8808
+Epoch [60/100], Loss: 4.2609, 
+[Training] Acc: 0.8462, SE: 0.9856, SP: 0.6144, PC: 0.8098, F1: 0.8888, JS: 0.8003, DC: 0.8888
+[Validation] Acc: 0.8217, SE: 0.9921, SP: 0.4716, PC: 0.7949, F1: 0.8823, JS: 0.7898, DC: 0.8823
+Epoch [61/100], Loss: 4.3052, 
+[Training] Acc: 0.8446, SE: 0.9867, SP: 0.6094, PC: 0.8073, F1: 0.8876, JS: 0.7986, DC: 0.8877
+[Validation] Acc: 0.8173, SE: 0.9941, SP: 0.4516, PC: 0.7905, F1: 0.8803, JS: 0.7867, DC: 0.8803
+Epoch [62/100], Loss: 4.1039, 
+[Training] Acc: 0.8497, SE: 0.9879, SP: 0.6176, PC: 0.8127, F1: 0.8915, JS: 0.8047, DC: 0.8915
+[Validation] Acc: 0.8088, SE: 0.9949, SP: 0.4269, PC: 0.7821, F1: 0.8753, JS: 0.7789, DC: 0.8753
+Epoch [63/100], Loss: 4.2392, 
+[Training] Acc: 0.8454, SE: 0.9866, SP: 0.6124, PC: 0.8082, F1: 0.8881, JS: 0.7994, DC: 0.8881
+[Validation] Acc: 0.8159, SE: 0.9945, SP: 0.4527, PC: 0.7879, F1: 0.8789, JS: 0.7845, DC: 0.8789
+Epoch [64/100], Loss: 4.0399, 
+[Training] Acc: 0.8525, SE: 0.9896, SP: 0.6218, PC: 0.8153, F1: 0.8937, JS: 0.8084, DC: 0.8937
+[Validation] Acc: 0.8245, SE: 0.9928, SP: 0.4793, PC: 0.7974, F1: 0.8841, JS: 0.7927, DC: 0.8841
+Epoch [65/100], Loss: 4.1388, 
+[Training] Acc: 0.8488, SE: 0.9881, SP: 0.6165, PC: 0.8114, F1: 0.8907, JS: 0.8035, DC: 0.8907
+[Validation] Acc: 0.8249, SE: 0.9956, SP: 0.4741, PC: 0.7967, F1: 0.8847, JS: 0.7938, DC: 0.8847
+Epoch [66/100], Loss: 4.2435, 
+[Training] Acc: 0.8452, SE: 0.9887, SP: 0.6069, PC: 0.8074, F1: 0.8885, JS: 0.8000, DC: 0.8885
+Decay learning rate to lr: 0.0009714285714285714.
+[Validation] Acc: 0.7931, SE: 0.9954, SP: 0.3855, PC: 0.7673, F1: 0.8660, JS: 0.7645, DC: 0.8660
+Epoch [67/100], Loss: 4.0882, 
+[Training] Acc: 0.8515, SE: 0.9878, SP: 0.6235, PC: 0.8149, F1: 0.8926, JS: 0.8068, DC: 0.8926
+Decay learning rate to lr: 0.0009428571428571429.
+[Validation] Acc: 0.8180, SE: 0.9933, SP: 0.4551, PC: 0.7915, F1: 0.8807, JS: 0.7872, DC: 0.8807
+Epoch [68/100], Loss: 3.8685, 
+[Training] Acc: 0.8544, SE: 0.9911, SP: 0.6213, PC: 0.8169, F1: 0.8954, JS: 0.8111, DC: 0.8954
+Decay learning rate to lr: 0.0009142857142857143.
+[Validation] Acc: 0.8400, SE: 0.9872, SP: 0.5357, PC: 0.8156, F1: 0.8929, JS: 0.8069, DC: 0.8929
+Best AttU_Net model score : 0.8400
+Epoch [69/100], Loss: 4.1320, 
+[Training] Acc: 0.8472, SE: 0.9895, SP: 0.6129, PC: 0.8085, F1: 0.8895, JS: 0.8016, DC: 0.8895
+Decay learning rate to lr: 0.0008857142857142857.
+[Validation] Acc: 0.8170, SE: 0.9945, SP: 0.4497, PC: 0.7899, F1: 0.8801, JS: 0.7863, DC: 0.8801
+Epoch [70/100], Loss: 4.0904, 
+[Training] Acc: 0.8495, SE: 0.9895, SP: 0.6136, PC: 0.8120, F1: 0.8917, JS: 0.8051, DC: 0.8917
+Decay learning rate to lr: 0.0008571428571428571.
+[Validation] Acc: 0.8162, SE: 0.9938, SP: 0.4502, PC: 0.7894, F1: 0.8795, JS: 0.7855, DC: 0.8795
+Epoch [71/100], Loss: 4.0406, 
+[Training] Acc: 0.8531, SE: 0.9901, SP: 0.6228, PC: 0.8155, F1: 0.8940, JS: 0.8089, DC: 0.8940
+Decay learning rate to lr: 0.0008285714285714285.
+[Validation] Acc: 0.7959, SE: 0.9942, SP: 0.3828, PC: 0.7710, F1: 0.8682, JS: 0.7675, DC: 0.8682
+Epoch [72/100], Loss: 4.0872, 
+[Training] Acc: 0.8499, SE: 0.9896, SP: 0.6191, PC: 0.8111, F1: 0.8911, JS: 0.8044, DC: 0.8911
+Decay learning rate to lr: 0.0007999999999999999.
+[Validation] Acc: 0.8177, SE: 0.9954, SP: 0.4509, PC: 0.7902, F1: 0.8806, JS: 0.7872, DC: 0.8806
+Epoch [73/100], Loss: 4.0558, 
+[Training] Acc: 0.8508, SE: 0.9893, SP: 0.6209, PC: 0.8126, F1: 0.8918, JS: 0.8056, DC: 0.8918
+Decay learning rate to lr: 0.0007714285714285713.
+[Validation] Acc: 0.8312, SE: 0.9916, SP: 0.5036, PC: 0.8047, F1: 0.8879, JS: 0.7990, DC: 0.8879
+Epoch [74/100], Loss: 4.1996, 
+[Training] Acc: 0.8473, SE: 0.9896, SP: 0.6101, PC: 0.8093, F1: 0.8899, JS: 0.8026, DC: 0.8899
+Decay learning rate to lr: 0.0007428571428571428.
+[Validation] Acc: 0.8165, SE: 0.9954, SP: 0.4533, PC: 0.7885, F1: 0.8795, JS: 0.7855, DC: 0.8795
+Epoch [75/100], Loss: 4.0980, 
+[Training] Acc: 0.8490, SE: 0.9876, SP: 0.6145, PC: 0.8128, F1: 0.8914, JS: 0.8046, DC: 0.8914
+Decay learning rate to lr: 0.0007142857142857142.
+[Validation] Acc: 0.8184, SE: 0.9934, SP: 0.4597, PC: 0.7917, F1: 0.8807, JS: 0.7874, DC: 0.8807
+Epoch [76/100], Loss: 4.0756, 
+[Training] Acc: 0.8487, SE: 0.9895, SP: 0.6139, PC: 0.8107, F1: 0.8909, JS: 0.8038, DC: 0.8909
+Decay learning rate to lr: 0.0006857142857142856.
+[Validation] Acc: 0.8141, SE: 0.9948, SP: 0.4405, PC: 0.7877, F1: 0.8787, JS: 0.7843, DC: 0.8787
+Epoch [77/100], Loss: 4.0274, 
+[Training] Acc: 0.8514, SE: 0.9899, SP: 0.6193, PC: 0.8134, F1: 0.8926, JS: 0.8068, DC: 0.8926
+Decay learning rate to lr: 0.000657142857142857.
+[Validation] Acc: 0.8091, SE: 0.9923, SP: 0.4316, PC: 0.7847, F1: 0.8757, JS: 0.7797, DC: 0.8757
+Epoch [78/100], Loss: 3.9084, 
+[Training] Acc: 0.8554, SE: 0.9909, SP: 0.6261, PC: 0.8175, F1: 0.8957, JS: 0.8115, DC: 0.8957
+Decay learning rate to lr: 0.0006285714285714284.
+[Validation] Acc: 0.8114, SE: 0.9956, SP: 0.4348, PC: 0.7840, F1: 0.8768, JS: 0.7811, DC: 0.8768
+Epoch [79/100], Loss: 3.8420, 
+[Training] Acc: 0.8545, SE: 0.9919, SP: 0.6226, PC: 0.8160, F1: 0.8952, JS: 0.8106, DC: 0.8952
+Decay learning rate to lr: 0.0005999999999999998.
+[Validation] Acc: 0.8208, SE: 0.9934, SP: 0.4681, PC: 0.7938, F1: 0.8820, JS: 0.7896, DC: 0.8820
+Epoch [80/100], Loss: 4.0266, 
+[Training] Acc: 0.8486, SE: 0.9907, SP: 0.6096, PC: 0.8102, F1: 0.8912, JS: 0.8043, DC: 0.8912
+Decay learning rate to lr: 0.0005714285714285713.
+[Validation] Acc: 0.8158, SE: 0.9947, SP: 0.4510, PC: 0.7881, F1: 0.8790, JS: 0.7847, DC: 0.8790
+Epoch [81/100], Loss: 3.8272, 
+[Training] Acc: 0.8567, SE: 0.9920, SP: 0.6279, PC: 0.8186, F1: 0.8967, JS: 0.8132, DC: 0.8967
+Decay learning rate to lr: 0.0005428571428571427.
+[Validation] Acc: 0.7972, SE: 0.9974, SP: 0.3888, PC: 0.7699, F1: 0.8687, JS: 0.7684, DC: 0.8687
+Epoch [82/100], Loss: 3.9407, 
+[Training] Acc: 0.8544, SE: 0.9911, SP: 0.6258, PC: 0.8158, F1: 0.8946, JS: 0.8100, DC: 0.8946
+Decay learning rate to lr: 0.0005142857142857141.
+[Validation] Acc: 0.8228, SE: 0.9939, SP: 0.4704, PC: 0.7958, F1: 0.8835, JS: 0.7918, DC: 0.8835
+Epoch [83/100], Loss: 4.0347, 
+[Training] Acc: 0.8501, SE: 0.9906, SP: 0.6185, PC: 0.8110, F1: 0.8914, JS: 0.8049, DC: 0.8914
+Decay learning rate to lr: 0.0004857142857142855.
+[Validation] Acc: 0.8168, SE: 0.9944, SP: 0.4493, PC: 0.7898, F1: 0.8801, JS: 0.7862, DC: 0.8801
+Epoch [84/100], Loss: 3.8397, 
+[Training] Acc: 0.8532, SE: 0.9922, SP: 0.6188, PC: 0.8144, F1: 0.8943, JS: 0.8093, DC: 0.8943
+Decay learning rate to lr: 0.0004571428571428569.
+[Validation] Acc: 0.8234, SE: 0.9944, SP: 0.4752, PC: 0.7955, F1: 0.8835, JS: 0.7919, DC: 0.8835
+Epoch [85/100], Loss: 3.6493, 
+[Training] Acc: 0.8607, SE: 0.9934, SP: 0.6336, PC: 0.8226, F1: 0.8998, JS: 0.8181, DC: 0.8998
+Decay learning rate to lr: 0.00042857142857142833.
+[Validation] Acc: 0.8117, SE: 0.9960, SP: 0.4351, PC: 0.7842, F1: 0.8770, JS: 0.7817, DC: 0.8770
+Epoch [86/100], Loss: 3.6845, 
+[Training] Acc: 0.8568, SE: 0.9937, SP: 0.6250, PC: 0.8177, F1: 0.8969, JS: 0.8135, DC: 0.8969
+Decay learning rate to lr: 0.00039999999999999975.
+[Validation] Acc: 0.8170, SE: 0.9949, SP: 0.4553, PC: 0.7892, F1: 0.8797, JS: 0.7859, DC: 0.8797
+Epoch [87/100], Loss: 3.7892, 
+[Training] Acc: 0.8531, SE: 0.9929, SP: 0.6174, PC: 0.8140, F1: 0.8943, JS: 0.8094, DC: 0.8943
+Decay learning rate to lr: 0.00037142857142857116.
+[Validation] Acc: 0.8064, SE: 0.9964, SP: 0.4165, PC: 0.7794, F1: 0.8741, JS: 0.7771, DC: 0.8741
+Epoch [88/100], Loss: 3.6748, 
+[Training] Acc: 0.8569, SE: 0.9942, SP: 0.6251, PC: 0.8176, F1: 0.8970, JS: 0.8137, DC: 0.8970
+Decay learning rate to lr: 0.0003428571428571426.
+[Validation] Acc: 0.8208, SE: 0.9927, SP: 0.4638, PC: 0.7950, F1: 0.8825, JS: 0.7903, DC: 0.8825
+Epoch [89/100], Loss: 3.9368, 
+[Training] Acc: 0.8504, SE: 0.9924, SP: 0.6147, PC: 0.8107, F1: 0.8920, JS: 0.8058, DC: 0.8920
+Decay learning rate to lr: 0.000314285714285714.
+[Validation] Acc: 0.7997, SE: 0.9965, SP: 0.3957, PC: 0.7734, F1: 0.8704, JS: 0.7712, DC: 0.8704
+Epoch [90/100], Loss: 3.8894, 
+[Training] Acc: 0.8523, SE: 0.9921, SP: 0.6197, PC: 0.8127, F1: 0.8932, JS: 0.8077, DC: 0.8932
+Decay learning rate to lr: 0.0002857142857142854.
+[Validation] Acc: 0.8292, SE: 0.9936, SP: 0.4927, PC: 0.8014, F1: 0.8869, JS: 0.7972, DC: 0.8869
+Epoch [91/100], Loss: 3.6624, 
+[Training] Acc: 0.8572, SE: 0.9943, SP: 0.6255, PC: 0.8176, F1: 0.8971, JS: 0.8138, DC: 0.8971
+Decay learning rate to lr: 0.0002571428571428568.
+[Validation] Acc: 0.8269, SE: 0.9944, SP: 0.4821, PC: 0.7993, F1: 0.8858, JS: 0.7957, DC: 0.8858
+Epoch [92/100], Loss: 3.7110, 
+[Training] Acc: 0.8569, SE: 0.9942, SP: 0.6277, PC: 0.8169, F1: 0.8965, JS: 0.8131, DC: 0.8965
+Decay learning rate to lr: 0.00022857142857142824.
+[Validation] Acc: 0.8147, SE: 0.9948, SP: 0.4469, PC: 0.7876, F1: 0.8786, JS: 0.7842, DC: 0.8786
+Epoch [93/100], Loss: 3.7860, 
+[Training] Acc: 0.8543, SE: 0.9936, SP: 0.6215, PC: 0.8144, F1: 0.8948, JS: 0.8103, DC: 0.8948
+Decay learning rate to lr: 0.00019999999999999966.
+[Validation] Acc: 0.8163, SE: 0.9962, SP: 0.4503, PC: 0.7878, F1: 0.8794, JS: 0.7854, DC: 0.8794
+Epoch [94/100], Loss: 3.6409, 
+[Training] Acc: 0.8588, SE: 0.9949, SP: 0.6296, PC: 0.8190, F1: 0.8981, JS: 0.8157, DC: 0.8981
+Decay learning rate to lr: 0.00017142857142857107.
+[Validation] Acc: 0.8187, SE: 0.9955, SP: 0.4537, PC: 0.7909, F1: 0.8812, JS: 0.7881, DC: 0.8812
+Epoch [95/100], Loss: 3.5833, 
+[Training] Acc: 0.8568, SE: 0.9957, SP: 0.6228, PC: 0.8164, F1: 0.8969, JS: 0.8136, DC: 0.8969
+Decay learning rate to lr: 0.0001428571428571425.
+[Validation] Acc: 0.8181, SE: 0.9963, SP: 0.4469, PC: 0.7905, F1: 0.8813, JS: 0.7882, DC: 0.8813
+Epoch [96/100], Loss: 3.6185, 
+[Training] Acc: 0.8584, SE: 0.9948, SP: 0.6271, PC: 0.8188, F1: 0.8981, JS: 0.8154, DC: 0.8981
+Decay learning rate to lr: 0.00011428571428571392.
+[Validation] Acc: 0.8133, SE: 0.9959, SP: 0.4387, PC: 0.7861, F1: 0.8781, JS: 0.7835, DC: 0.8781
+Epoch [97/100], Loss: 3.5029, 
+[Training] Acc: 0.8607, SE: 0.9957, SP: 0.6313, PC: 0.8211, F1: 0.8997, JS: 0.8182, DC: 0.8997
+Decay learning rate to lr: 8.571428571428535e-05.
+[Validation] Acc: 0.8225, SE: 0.9951, SP: 0.4689, PC: 0.7942, F1: 0.8830, JS: 0.7911, DC: 0.8830
+Epoch [98/100], Loss: 3.4412, 
+[Training] Acc: 0.8604, SE: 0.9965, SP: 0.6302, PC: 0.8198, F1: 0.8993, JS: 0.8175, DC: 0.8993
+Decay learning rate to lr: 5.7142857142856776e-05.
+[Validation] Acc: 0.8131, SE: 0.9956, SP: 0.4412, PC: 0.7856, F1: 0.8777, JS: 0.7828, DC: 0.8777
+Epoch [99/100], Loss: 3.6318, 
+[Training] Acc: 0.8556, SE: 0.9944, SP: 0.6249, PC: 0.8150, F1: 0.8954, JS: 0.8114, DC: 0.8954
+Decay learning rate to lr: 2.8571428571428205e-05.
+[Validation] Acc: 0.8232, SE: 0.9949, SP: 0.4712, PC: 0.7952, F1: 0.8835, JS: 0.7919, DC: 0.8835
+Epoch [100/100], Loss: 3.6709, 
+[Training] Acc: 0.8567, SE: 0.9945, SP: 0.6251, PC: 0.8167, F1: 0.8966, JS: 0.8133, DC: 0.8966
+Decay learning rate to lr: -3.6591823321385775e-19.
+[Validation] Acc: 0.8233, SE: 0.9950, SP: 0.4715, PC: 0.7952, F1: 0.8836, JS: 0.7920, DC: 0.8836
