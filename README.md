@@ -10,6 +10,14 @@
   - https://arxiv.org/abs/1804.03999
 - Attention R2U-Net : Just integration of two recent advanced works (R2U-Net + Attention U-Net)
 
+## Usage
+
+```shell
+python main.py -h
+
+python main.py --model_type={} --epoch={} --result_path={} --lr={}
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
